@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+
+}
+
+.header{
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+.header .logo img {
+    height: 6rem;
+    position: fixed;
+    top: 10px; /* Atur posisi vertikal logo */
+    left: 10px; /* Atur posisi horizontal logo */
+}
+
+    
+body{
+        background-image:url(https://images.pexels.com/photos/534283/pexels-photo-534283.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-position: center;
+        background-size:cover;
+        display:flex;
+        text-align:center;
+        justify-content:center;
+        align-items:center;
+        min-height:100vh;
+}
+
+.tabel1 {
+    background-color: rgba(0, 0, 0, 0.753);
+    font-family: sans-serif;
+    color:rgb(255, 255, 255);
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid rgb(245, 245, 245);
+    margin-top:  50px;
+    margin-left:150px;
+    float: center;
+}
+
+.tabel1 tr th {
+    background-color: rgb(253, 253, 253);
+    color: black;
+    font-weight: normal;
+    font-size:1.5rem;
+}
+
+.tabel1 tr td {
+    padding : 8px 20px;
+    text-align: center;
+    font-size:1.5rem;
+}
+
+.tabel1 .lbr {
+    padding : 8px 30px;
+    text-align: center;
+    font-size:1.5rem;
+}
+
+.title{
+    
+    text-align: center ;
+     
+}
+
+.container h1 {
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    margin-top: 100px; /* Atur jarak atas sesuai kebutuhan */
+}
+
+
+.container .table1 {
+    color:rgba(51, 36, 9, 0.938);
+    outline-offset: 2px;
+    outline-color: antiquewhite;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom:20px;
+    display: block; 
+    text-transform: capitalize;
+    place-content: center;
+
+}
+
+.container a{
+    display: inline-block;
+    color:rgba(51, 36, 9, 0.938);
+    text-align: center;
+    font-size: 1.2rem;
+    font: sans-serif;
+    justify-content: center;
+} 
+
+.btn{
+    margin-top: 0.7rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color:rgba(51, 36, 9, 0.938);
+    background-color:rgba(230, 191, 140, 0.884);
+    cursor: pointer;
+    border-radius: 30px;
+    transform: translate(55%,0);
+
+}
+
+.bts{
+    margin-top: 0.8rem;
+    display: inline-block;
+    padding:.9rem 4.2rem;
+    font-size: 1.7rem;
+    color:rgba(51, 36, 9, 0.938);
+    background-color:rgba(230, 191, 140, 0.884);
+    cursor: pointer;
+    border-radius: 30px;
+    transform: translate(55%,0);
+
+}

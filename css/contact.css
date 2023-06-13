@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+body{
+        background-image: url(https://images6.alphacoders.com/391/391336.jpg);
+        min-height:100vh;
+        background-position: center;
+        background-size:cover;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        
+}
+
+.title{
+    
+    text-align: center ;  
+}
+
+
+
+.container {
+    
+    place-content: center;
+    justify-content: center;
+    align-items: center;    
+}
+
+.container .box {
+    width: 450px;
+    min-height: 450px;
+    background-color:rgba(253, 253, 252, 0.829);
+    border-radius: 6px;
+    box-shadow: 1px,1px,5px black;
+    padding: 40px 30px;
+}
+
+.container .contact-text {
+    color:rgba(51, 36, 9, 0.938);
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom:20px;
+    display: block; text-transform: capitalize;
+    place-content: center;
+
+}
+
+.container a{
+    display: inline-block;
+    color:rgba(51, 36, 9, 0.938);
+    text-align: center;
+    font-size: 1.2rem;
+    font: sans-serif;
+    justify-content: center;
+} 
+
+.btn{
+    margin-top: 0.7rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color:rgba(51, 36, 9, 0.938);
+    background-color:rgba(230, 191, 140, 0.884);
+    cursor: pointer;
+    border-radius: 30px;
+    transform: translate(55%,0);
+
+}
+
+.bts{
+    margin-top: 0.8rem;
+    display: inline-block;
+    padding:.9rem 4.2rem;
+    font-size: 1.7rem;
+    color:rgba(51, 36, 9, 0.938);
+    background-color:rgba(230, 191, 140, 0.884);
+    cursor: pointer;
+    border-radius: 30px;
+    transform: translate(55%,0);
+
+}
